@@ -38,7 +38,7 @@ import java.util.ArrayList;
 
 public class BookDetails extends AppCompatActivity {
 
-    //for bottom navigation
+    //for bottom navigation bar
     BottomNavigationView bottomNavigationView ;
     //for favorite
     boolean favorite;
