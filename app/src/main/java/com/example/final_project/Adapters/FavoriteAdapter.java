@@ -44,8 +44,6 @@ public class FavoriteAdapter extends BaseAdapter {
     @Override
     public View getView(int pos, View view, ViewGroup parent) {
         //inflating the view
-
-        //inflating the view
         LayoutInflater inflater = (LayoutInflater) this.mContext.getSystemService(mContext.LAYOUT_INFLATER_SERVICE);
         View book_view = view;
 
