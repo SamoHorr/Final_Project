@@ -14,7 +14,7 @@ import com.google.android.material.bottomappbar.BottomAppBar;
 import java.util.ArrayList;
 
 public class DB_Book extends SQLiteOpenHelper {
-    //initialisation
+    //initialisation for the db
     private static final int DATABASE_VERSION = 2;
     public static final String BOOKS = "BOOKS";
     public static final String COLUMN_ID = "id";
