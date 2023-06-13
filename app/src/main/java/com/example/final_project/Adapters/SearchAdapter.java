@@ -55,7 +55,7 @@ public class SearchAdapter extends BaseAdapter {
         //getting movie from it's position in the array
         Book book = books.get(pos);
 
-        //setting the view depending on the books from the grid
+        //setting the view depending on the book from the grid
         ImageView book_image = (ImageView) book_view.findViewById(R.id.book_search_image);
         TextView book_title = (TextView) book_view.findViewById(R.id.book_search_title);
         TextView book_subtitle = (TextView) book_view.findViewById(R.id.book_search_subtitle);
