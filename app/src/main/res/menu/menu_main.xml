@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    menu file for the icons for bottom navigation bar-->
+    <item
+        android:id="@+id/home_icon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/favorite_icon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favorite"
+        android:visible="true" />
+    <item
+        android:id="@+id/search_icon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        android:visible="true" />
+
+
+</menu>
